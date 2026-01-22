@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="head" src="./assets/logo-header.png" alt="head mario bros">
+        <a>HOME</a>
+        <a class ="fale" onclick="openFormulario()">FALE CONOSCO</a>
+        <a>SERVIÇOS</a>
+    </header>
+
+    <div onclick="fecharFormulario()" class="mascara-form"></div>
+
+    <nav>
+        <section>
+            <img class="logo" src="./assets/logo.png" alt="Logo do Mario Bros">
+
+            <p>🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧</p>
+            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+            <button onclick="abrirFormulario()">ENTRE EM CONTATO</button>
+        </section>
+
+        <div>
+            <img class="mario" src="./assets/mario.png" alt="Mario e Luigi">
+
+        </div>
+
+    </nav>
+
+
+    <div class="caixa-video">
+        <video src="./assets/video mario bros.mp4" autoplay muted loop></video>
+
+        <div class="overlay"></div>
+    </div>
+
+    <a href="https://w.app/cwm6rx"><img class="whatsapp" src="./assets/whatsapp.png" alt="whatsapp"></a>
+
+    <form 
+        class="form-orcamento"
+        action="https://formcarry.com/s/WA69ZMEQzEK"
+        method="POST"
+        enctype="multipart/form-data">
+            <input placeholder="Nome" type="text" name="name">
+            <input placeholder="Telefone" type="tel" name="phone">
+            <input placeholder="E-mail" type="email" name="email">
+            <textarea placeholder="Mensagem" name="message"></textarea>
+             <button type="submit">Pedir Orcamento</button>
+    </form>
+
+</body>
+
+<script src="./scrips.js"></script> 
+
+</html>
