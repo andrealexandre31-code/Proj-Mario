@@ -128,7 +128,7 @@ textarea {
     transition: visibility 1s ease-in-out;
 }
     
-@media(max-width: 990px) and (orientation: landscape) {
+@media(max-width: 990px) {
 
     p {
         display: none;
@@ -165,4 +165,6 @@ textarea {
         display: none;
     }
 
+    @media(max-width: 990px) and (orientation: landscape) {
 
+    }
